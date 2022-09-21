@@ -3,11 +3,12 @@ COVID-19 has brought the world into stand still and this pandemic showcased some
 
 # Requirements
 1. Programming language: Python and R 
-2. Dashboard Language: R
-2. Libraries: OpenCV and RShiny
+2. Dashboard Language: R and web dev. in CSS + HTML
+2. Libraries: OpenCV, panadas, face_recognition, pickle, numpy , RShiny, Plotly, Shinyjs,  Leaflet, Plotrix
 3. Model used : YOLOv4 and v3
 4. mAP achieved : 0.9395 (mAP @ 0.50 i.e. Mean Average Precision)
-5. 
+5. Software/Tools: LabelImg, ImagEye, Google Colab GPU
+
 # Methodology 
 In our study, we propose a 4-stage model including people detection, tracking social distancing, mask detection and face recognition for alerting violators as a total solution for zone-based monitoring in corporate sectors. The system is also suitable for crowded area and can be integrated on convoluted system where CCTV is placed at specific stature.
 ## 1. People Detection
