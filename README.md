@@ -41,11 +41,7 @@ Corporate Social Responsibility Dashboard(CSRD) is a dashboard used to analyze r
 
 # mAP for mask detection
 ![image](https://user-images.githubusercontent.com/43074750/191460966-0ffc9d3a-386c-4931-b497-6c46a8c30aac.png)
-|Set          |	Precision	| Recall | 	F1-score |	Average IOU	| AP(Mask) |	AP(No Mask)|
-| :-----:     | :---:     | :---:  |
-Training Set	    0.98	      0.99	      0.99	        87.54%	     99.57%	    99.73%
-Validation Set  	0.88	      0.90	      0.89	        69.37%	     93.38%	    83.39%
-Test Set	        0.92	      0.95	      0.93	        73.90%	     97.80%	    90.10%
+![ap](https://user-images.githubusercontent.com/43074750/191467716-8f85ed1e-df0a-4c06-8495-cd1f3e9143cb.PNG)
 
 # Conclusion
 An efficient framework for the COVID norms violation system is proposed. Given a constrained and crowded video, the proposed framework detects the person not following predefined social distance and inspects the person for wearing a mask using the YOLOv4 model. The social distance monitoring method proposed is giving promising results on the IPM Transformation method and the Height-Width comparison method. Once the YOLO model detects the violator, the face recognition module identifies the person and sends the information to the law enforcement dept. In addition to that, our proposed framework aids the user to get information about the distribution of violators in a particular place. Our framework outperforms recent solutions like Prateek Khandelwal [14] with mAP (mAP @ 0.50 i.e. Mean Average Precision) of 0.9395 on YOLOv4. This system is very affordable and easy to deploy on real time surveillance on GPU. Once the model is trained and deployed, the only cost would be to maintain the hardware on which the model would be running. Hence, the system is suitable for the crowded area and can be integrated on convoluted system where CCTV is placed at a specific stature. 
