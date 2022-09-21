@@ -18,6 +18,7 @@ The dataset consists of 920 images for mask detection, gathered from Google, Bin
 ![image](https://user-images.githubusercontent.com/43074750/191445413-797eed16-d606-4d8e-8b7b-1695c7eb9e8a.png)
 
 # Hyper-parameters for mask detection
+
 •	Learning Rate	0.001
 •	Batch		64
 •	Subdivisions	32
@@ -27,7 +28,6 @@ The dataset consists of 920 images for mask detection, gathered from Google, Bin
 •	Momentum	0.9
 •	Decay		0.0006
 
-# mAP for mask detection model
 
 # Conclusion
 An efficient framework for the COVID norms violation system is proposed. Given a constrained and crowded video, the proposed framework detects the person not following predefined social distance and inspects the person for wearing a mask using the YOLOv4 model. The social distance monitoring method proposed is giving promising results on the IPM Transformation method and the Height-Width comparison method. Once the YOLO model detects the violator, the face recognition module identifies the person and sends the information to the law enforcement dept. In addition to that, our proposed framework aids the user to get information about the distribution of violators in a particular place. Our framework outperforms recent solutions like Prateek Khandelwal [14] with mAP (mAP @ 0.50 i.e. Mean Average Precision) of 0.9395 on YOLOv4. This system is very affordable and easy to deploy on real time surveillance on GPU. Once the model is trained and deployed, the only cost would be to maintain the hardware on which the model would be running. Hence, the system is suitable for the crowded area and can be integrated on convoluted system where CCTV is placed at a specific stature. 
