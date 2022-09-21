@@ -41,7 +41,8 @@ Corporate Social Responsibility Dashboard(CSRD) is a dashboard used to analyze r
 
 # mAP for mask detection
 ![image](https://user-images.githubusercontent.com/43074750/191460966-0ffc9d3a-386c-4931-b497-6c46a8c30aac.png)
-Set          |	Precision	| Recall | 	F1-score |	Average IOU	| AP(Mask) |	AP(No Mask)
+|Set          |	Precision	| Recall | 	F1-score |	Average IOU	| AP(Mask) |	AP(No Mask)|
+| :-----:     | :---:     | :---:  |
 Training Set	    0.98	      0.99	      0.99	        87.54%	     99.57%	    99.73%
 Validation Set  	0.88	      0.90	      0.89	        69.37%	     93.38%	    83.39%
 Test Set	        0.92	      0.95	      0.93	        73.90%	     97.80%	    90.10%
